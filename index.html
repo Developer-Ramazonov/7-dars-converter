@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./boot/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <form class="row" id="convert" action="">
+        <div class="col-4 mt-3">
+            <label class="form-label" for="amount">Enter the amount of the money : </label>
+            <input class="form-control" id="amount" type="number">
+
+        </div>
+        <div class="col-4 mt-5">
+            <select id="type" class="form-control mb-3">
+                <option disabled selected>---Choose the money type---</option>
+                <option value="10800">USD</option>
+                <option value="11900">EURO</option>
+                <option value="131">RUB</option>
+            </select>
+        </div>
+            
+        <div class="col-4 mt-5">
+            <button class="btn btn-primary" type="submit">Convert</button>
+    
+        </div>
+        <div class="col-12">Here you can see converted value :         <span id="result">0</span></div>
+        
+            
+
+    </form>
+    </div>
+
+    
+    <!-- <div class="container">
+        <form class="row" id="credit">
+            <div class="col-6">
+                <label class="form-label" for="credit_amount">Qancha kredit kerak:</label>
+                <input id="credit_amount" class="form-control"  type="number">
+                <br>
+                <label class="form-label" for="percent">Kredit:</label>
+                <select id="percent">
+                    <option value="" disabled selected>--Foizni tanlang--</option>
+                    <option value="12">ipoteka</option>
+                    <option value="15">autocredit</option>
+                    <option value="23">other</option>
+                </select>
+                <br>
+                <div>Natija: <span id="result">0</span></div>
+                <button class="btn btn-sm btn-success" type="submit">Hisobla</button>
+            </div>
+        </form>
+    </div>
+ -->
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
